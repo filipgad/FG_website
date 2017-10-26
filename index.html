@@ -10,21 +10,27 @@
 <body>
 
     <!-- HEADER -->
-    <header class="parallax">
-      <div class="top-container">
-        <nav class="main-nav">
-          <ul>
-            <li><a href='#'>O MNIE</a></li>
-            <li><a href='#'>CV</a></li>
-            <li><a href='#'>PORTFOLIO</a></li>
-            <li><a href='#'>KONTAKT</a></li>
-          </ul>
-        </nav>
-        <button type="button" class="navbar-toggle"></button>
-      </div>
-      <div class="header-text">
-        <h1>FILIP <span>GODZIŃSKI</span></h1>
-        <h4>JUNIOR FRONT-END DEVELOPER</h3>
+    <header id="slide-1">
+      <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#slide-1"
+    >
+        <div class="top-container">
+          <nav class="main-nav">
+            <ul>
+              <li><a href='#'>O MNIE</a></li>
+              <li><a href='#'>CV</a></li>
+              <li><a href='#'>PORTFOLIO</a></li>
+              <li><a href='#'>KONTAKT</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="navbar-toggle"></button>
+        </div>
+        <div class="header-text">
+          <h1>FILIP <span>GODZIŃSKI</span></h1>
+          <h4>JUNIOR FRONT-END DEVELOPER</h3>
+        </div>
       </div>
     </header>
 
@@ -43,55 +49,62 @@
     </section>
 
     <!-- CV -->
-    <section class="cv-bg">
-      <div class="cv-container">
-        <div><h1>CV</h1></div>
-        <div class="education">
-          <div class="cv-title">Edukacja</div>
-          <ul>
-            <li>
-              2008 - 2011<br/>
-              Liceum Ogólnokształcące nr XVIII w Katowicach<br/>
-              klasa o profilu informatyczno-matematycznym</li>
-            <li>
-              2011 - 2016<br/>
-              Uniwersytet Ekonomiczny w Katowicach<br/>
-              ukończony z tytułem: magister<br/>
-              kierunek: Ekonomia<br/>
-              specjalizacja: Gospodarka elektroniczna</li>
-            <li>
-              2017<br/>
-              Kurs CodersLab - Front-end Developer</li>
-          </ul>
-        </div>
-        <div class="experience">
-          <div class="cv-title">Poznane technologie i języki</div>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>Gulp/Webpack</li>
-            <li>Sass</li>
-            <li>RWD</li>
-          <ul>
-        </div>
-        <div class="language">
-          <div class="cv-title">Języki obce</div>
-          <ul>
-            <li>Język angielski - B2</li>
-            <li>Język hiszpański - A1</li>
-          </ul>
-        </div>
-        <div class="hobby">
-          <div class="cv-title">Hobby</div>
-          <ul>
-            <li>Koszykówka</li>
-            <li>Golf</li>
-            <li>Squash</li>
-            <li>Siłownia</li>
-          </ul>
+    <section id="slide-2" class="cv-bg">
+      <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-bottom-top="background-position: 50% 100px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#slide-2"
+      >
+        <div class="cv-container">
+          <div><h1>CV</h1></div>
+          <div class="education">
+            <div class="cv-title">Edukacja</div>
+            <ul>
+              <li>
+                2008 - 2011<br/>
+                Liceum Ogólnokształcące nr XVIII w Katowicach<br/>
+                klasa o profilu informatyczno-matematycznym</li>
+              <li>
+                2011 - 2016<br/>
+                Uniwersytet Ekonomiczny w Katowicach<br/>
+                ukończony z tytułem: magister<br/>
+                kierunek: Ekonomia<br/>
+                specjalizacja: Gospodarka elektroniczna</li>
+              <li>
+                2017<br/>
+                Kurs CodersLab - Front-end Developer</li>
+            </ul>
+          </div>
+          <div class="experience">
+            <div class="cv-title">Poznane technologie i języki</div>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>Gulp/Webpack</li>
+              <li>Sass</li>
+              <li>RWD</li>
+            <ul>
+          </div>
+          <div class="language">
+            <div class="cv-title">Języki obce</div>
+            <ul>
+              <li>Język angielski - B2</li>
+              <li>Język hiszpański - A1</li>
+            </ul>
+          </div>
+          <div class="hobby">
+            <div class="cv-title">Hobby</div>
+            <ul>
+              <li>Koszykówka</li>
+              <li>Golf</li>
+              <li>Squash</li>
+              <li>Siłownia</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -107,9 +120,15 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact">
-      <div class="contact-text">
-        <h1>KONTAKT</h1>
+    <section id="slide-3" class="contact">
+      <div class="bcg"
+          data-bottom-top="filter: blur(0px);"
+          data-top-bottom="filter: blur(3px);"
+          data-anchor-target="#slide-3"
+      >
+        <div class="contact-text">
+          <h1>KONTAKT</h1>
+        </div>
       </div>
     </section>
 
@@ -118,7 +137,8 @@
 
     </footer>
 
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+    <script src="js/skrollr.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
