@@ -271,6 +271,11 @@ header {
   line-height: normal;
 }
 
+.contact p {
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
 .contact h1 {
   text-align: center;
 }
