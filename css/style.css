@@ -219,7 +219,7 @@ header {
   font-size: 1.2rem;
 }
 
-.education ul {
+.education ul, .job ul {
   text-align: left;
   padding: 15px 180px;
 }
